@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="af2157f4-bf2c-4f9a-b625-44d31cec9e19" name="Dream_yun">
+        <fileTransfer accessType="SFTP" host="dsy" port="22" sshConfigId="cb866389-47b0-4431-88d2-e5a91df33a8b" sshConfig="root@dsy:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="66191d0b-2e56-4444-b6e8-63523397ac22" name="Jun_yun">
+        <fileTransfer accessType="SFTP" host="192.168.18.130" port="22" sshConfigId="91e272df-92b8-4a4b-906b-8fe10c650edd" sshConfig="root@192.168.18.130:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
